@@ -29,6 +29,8 @@ npm install
 
 1. Before starting the project, you need to ensure you have a GIF image on which you want to add text. The current GIF provided in the `assets/images/mr-bean-benestad.gif` will be used for demonstration purposes. If you want to use your own GIF, follow the instructions below.
 
+![Assets Images](./assets/images/mr-bean-benestad.gif)
+
 2. Replace the existing GIF `mr-bean-benestad.gif` in the `assets/images/` folder with your own GIF, but make sure to keep the file name the same (i.e., `mr-bean-benestad.gif`).
 
 3. Optionally, if you want to change the file name from `mr-bean-benestad.gif` to something else, you also need to update the file path in the `models/GIF.js` file. Modify the `gifGeneratorModel()` function to return the new file path.
@@ -41,6 +43,8 @@ npm start
 
 
 6. The project will now be running locally. You can access the modified GIF in your browser by visiting: `http://localhost:3333/gifimages/textOnGifDone.gif`.
+
+![Assets Images](./public/outPutSvg/textOnGifDone.gif)
 
 ## Note
 
